@@ -1,3 +1,9 @@
+library(shiny)
+library(data.table)
+library(leaflet)
+library(timevis)
+library(DT)
+
 server <- shinyServer(function(input, output, session) {
     
     vOccurencePoland <- fread("./occurencePoland.csv")
