@@ -1,3 +1,7 @@
+library(leaflet)
+library(timevis)
+library(DT)
+
 ui <- shinyUI(
     fluidPage(
         titlePanel("Global Biodiversity Information Facility"),
